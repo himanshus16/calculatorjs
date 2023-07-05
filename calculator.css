@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+
+}
+.cal-div{
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: content-box;
+    background-color: rgb(214, 219, 219);
+    box-shadow: 0 0 5px #545555,
+                0 0 20px #545555,
+                0 0 40px #545555,
+                0 0 50px #545555;
+    padding: 20px;
+}
+.heading-div{
+    border: 1px solid gray;
+    padding: 15px;
+    background-color: rgb(47, 47, 47);
+}
+.heading-div h4{
+    display: none;
+}
+.heading-div h1{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.heading-div h1:hover{
+    color: aqua;
+    font-size: 20px;
+}
+.numbers-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.numbers{
+    width: 20%;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    
+}
+.numbers input{
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+}
+.opreator {
+    width: 20%;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(247, 131, 22);
+    border-radius: 50%;
+}
+.opreator button{
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+}
